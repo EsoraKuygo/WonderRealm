@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <style media="screen">
+img{
+  position : float;
+}
+h1{
+  font-family: fantasy
+}
+
+/* NOTE: bandeau nav */
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(107, 55, 250);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(130, 84, 255);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:"▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+.QD{
+font-size: 150%;
+list-style: disc;
+list-style-position: inside;
+padding-left: 50%
+}
+
+.QD li {
+margin-left: 1ex;
+
+}
+
+img{
+  float: left;
+}
+
+#perso{
+  text-align: center;
+  font-size: 50px;
+  text-overflow: ellipsis;
+  text-decoration-style: dashed;
+  text-decoration-color: purple;
+  color: purple;
+  font-family: fantasy;
+  font-style: italic;
+  font-size-adjust: auto;
+}
+
+/*footer*/
+#footer{
+position: inherit ;
+left: 0;
+right: 0;
+background-color: rgb(109, 4, 133) ;
+padding: 4px;
+opacity: .4;
+border: 5px;
+border-color: rgb(45, 10, 56);
+border-style: dashed;
+}
+
+#footer:hover{
+  opacity:1.0;
+}
+
+
+#Pdroite{
+padding-top: 55px;
+margin-left: 60px;
+padding-right: 125px;
+color: black;
+text-align: left;
+font-style: italic;
+font-family: sans-serif;
+font-size: 35px;
+float: left;
+opacity: 1.0;
+}
+
+#Pmid{
+padding-top: 2px;
+text-align: center;
+float: right;
+float: left;
+}
+#Pmid img{
+  opacity: 1.0;
+  width: auto;
+  heigh: auto;
+  vertical-align: middle;
+  border:5px solid black;
+  border-radius: 50%;
+}
+
+.huerotate {
+  filter: hue-rotate(180deg);
+}
+
+#Pleft{
+padding-top: 55px;
+margin-right: 60px;
+color: black;
+text-align: left;
+text-decoration: underline;
+font-family: sans-serif;
+font-size: 35px;
+float: right;
+opacity: 1.0;
+}
+#Pleft2{
+  padding-top: 6px;
+  margin-right: 275px ;
+  color: black;
+  text-align: left;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 25px;
+  float: right;
+  opacity: 1.0;
+}
+
+    </style>
+    <meta charset="utf-8">
+    <title>Esora Kyugo</title>
+  </head>
+  <body>
+    <!--bande haut de pages-->
+      <nav>
+      <ul>
+        <li class="deroulant"><a href="#">Mythologie Sumerienne &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">Ishtar</a></li>
+            <li><a href="#">Ereshkigal</a></li>
+            <li><a href="#">Gilgamesh</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="#">Syo &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">D&eacute;esse</a></li>
+            <li><a href="#">Elfes et aberation</a></li>
+            <li><a href="#">Chasseur de primes</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="#">Nisoma &ensp;</a>
+          <ul class="sous">
+            <li><a href="humain.html" alt"page des humain de ermobs">Humain</a></li>
+            <li><a href="#robots">Robots</a></li>
+         </ul>
+         <li class="deroulant"><a href="#">Ermobs &ensp;</a>
+           <ul class="sous">
+             <li><a href="#">Uya Simo</a></li>
+             <li><a href="#">Hata Simo</a></li>
+             <li><a href="#">Fukawa S</a> </li>
+          </ul>
+    </nav>
+
+    <!--carrer pages-->
+<img src="ekyugo.jpg" alt="voici esora">
+
+<h1 id="perso" >Esora kyugo</h1>
+
+<h1>Histoire</h1>
+<p>
+Esora est une rescap&eacute;s du massacre de sa sœur, elle surv&eacute;cue de justesse. Les humains lui greff&egrave;rent des membres bioniques (bras et jambe)pour &eacute;viter la gangr&egrave;ne et la mort.<br>
+Elle a depuis d&eacute;cid&eacute; de venger sa famille en tuant sa soeur, elle devint au passage un symbole de l'Alliance humain-machine.<br>
+Description mental: malgr&eacute; ses changements phisiques elle reste une adolescente qui adore le rose et certaines choses superflus (r&eacute;seaux sociaux et image publique sont tr&egrave;s importantes pour elle). <br>
+Elle n'a aucun sentiment &agrave; part la col&egrave;re qui lui fait parfois vriller ses circuits. <br>
+Elle est ouverte de non-esprit et r&eacute;fl&eacute;chie mieux que la casi totalit&eacute; des machines et des humains, elle garde toujours un sourire narquois au coin des l&egrave;vres.
+</p>
+
+<h1>Description</h1>
+<p>
+
+</p>
+<div class="QD">
+  <ul>
+    <li id="qualiter">Qualiter
+      <ul>
+      <li>
+      </li>
+      <li>
+     </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li id="default" >Defauts
+      <ul>
+      <li>
+      </li>
+      <li>
+      </li>
+     </ul>
+    </li>
+  </ul>
+
+</div>
+
+<!--bande pieds de page-->
+
+<div id="footer">
+<p id="Pdroite">Besoin d'aide? <br>Nous pouvons vous aidez! <br>Joignez vous a nous ^^  </p>
+<p id="Pmid"> <img class="huerotate"src="i-con.gif" alt="ishtar est bg"> </p>
+<p id="Pleft">Venez sur nos reseaux sociaux</p>
+<p id="Pleft2"><a href="https://www.instagram.com/esora_kyugo/" target="_blank">instagram</a>
+        <br> <a href="https://www.facebook.com/esora.kyugo/"  target="_blank">facebook </a>
+        <br> <a href="https://twitter.com/esorakyugo?lang=fr"  target="_blank">tweeter </a>
+        <br><a href="esora.kyugo.com"  target="_blank">spotify</a> <br> </p>
+</div>
+
+  </body>
+</html>

@@ -1,3 +1,3 @@
 <h1>Frozen il est nul au jeux video</h1>
 
-<img alt="inana" src="blob/main/img/ina.png" usemap="#inanam"  width="400" height="400">
+<img alt="ishtar" src="/img/11320.jpg" width="100" height="100">

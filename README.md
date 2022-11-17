@@ -1,1 +1,1 @@
-<img alt="inana" src="ina.png" usemap="#inanam"  width="400" height="379">
+<img alt="inana" src="/img/ina.png" usemap="#inanam"  width="400" height="379">
